@@ -1,0 +1,476 @@
+{
+  "calibration_metrics": {
+    "Uncalibrated": {
+      "ECE": 0.025323,
+      "MCE": 0.090966,
+      "Brier": 0.173741
+    },
+    "Platt": {
+      "ECE": 0.036812,
+      "MCE": 0.193052,
+      "Brier": 0.175368
+    },
+    "Isotonic": {
+      "ECE": 0.032368,
+      "MCE": 0.168184,
+      "Brier": 0.175168
+    },
+    "Temperature": {
+      "ECE": 0.030133,
+      "MCE": 0.087875,
+      "Brier": 0.173918
+    }
+  },
+  "calibration_curves": {
+    "Uncalibrated": {
+      "frac_pos": [
+        0.05925925925925926,
+        0.116,
+        0.25,
+        0.3732876712328767,
+        0.42995169082125606,
+        0.5721649484536082,
+        0.6457142857142857,
+        0.7881773399014779,
+        0.9104477611940298
+      ],
+      "mean_pred": [
+        0.09110674411058425,
+        0.1428497578948736,
+        0.24689522182993723,
+        0.34741496039579994,
+        0.44957208143916105,
+        0.5452455798375238,
+        0.6531355575152806,
+        0.7487326273189977,
+        0.8194821183361224
+      ]
+    },
+    "Platt": {
+      "frac_pos": [
+        0.0825515947467167,
+        0.24269005847953215,
+        0.3687707641196013,
+        0.450261780104712,
+        0.5691489361702128,
+        0.6555555555555556,
+        0.8055555555555556,
+        1.0
+      ],
+      "mean_pred": [
+        0.16406510812444192,
+        0.23982848008355176,
+        0.3450881776518908,
+        0.4487775308047341,
+        0.5442946589718193,
+        0.6536705479862119,
+        0.7495646302513281,
+        0.8069478757553129
+      ]
+    },
+    "Isotonic": {
+      "frac_pos": [
+        0.02,
+        0.08771929824561403,
+        0.23372781065088757,
+        0.3673469387755102,
+        0.42231075697211157,
+        0.549618320610687,
+        0.6136363636363636,
+        0.7740259740259741,
+        1.0,
+        1.0
+      ],
+      "mean_pred": [
+        0.003047640919685364,
+        0.13897401364030024,
+        0.2267836831818671,
+        0.31997886888023946,
+        0.4676613073899926,
+        0.555444662807552,
+        0.6732833920554682,
+        0.7571966485543684,
+        0.831815779209137,
+        0.9892673889795939
+      ]
+    }
+  },
+  "tradeoff": [
+    {
+      "threshold": 0.0,
+      "coverage": 1.0,
+      "accuracy": 0.7421289355322339,
+      "abstain_rate": 0.0
+    },
+    {
+      "threshold": 0.01,
+      "coverage": 0.9845077461269365,
+      "accuracy": 0.7467005076142132,
+      "abstain_rate": 0.015492253873063522
+    },
+    {
+      "threshold": 0.02,
+      "coverage": 0.9640179910044977,
+      "accuracy": 0.7506480041472265,
+      "abstain_rate": 0.0359820089955023
+    },
+    {
+      "threshold": 0.03,
+      "coverage": 0.9435282358820589,
+      "accuracy": 0.756885593220339,
+      "abstain_rate": 0.05647176411794108
+    },
+    {
+      "threshold": 0.04,
+      "coverage": 0.9195402298850575,
+      "accuracy": 0.7581521739130435,
+      "abstain_rate": 0.08045977011494254
+    },
+    {
+      "threshold": 0.05,
+      "coverage": 0.9000499750124937,
+      "accuracy": 0.7645752359800111,
+      "abstain_rate": 0.09995002498750627
+    },
+    {
+      "threshold": 0.06,
+      "coverage": 0.8760619690154923,
+      "accuracy": 0.7701083856246435,
+      "abstain_rate": 0.12393803098450773
+    },
+    {
+      "threshold": 0.07,
+      "coverage": 0.8590704647676162,
+      "accuracy": 0.7725421756835369,
+      "abstain_rate": 0.14092953523238383
+    },
+    {
+      "threshold": 0.08,
+      "coverage": 0.8405797101449275,
+      "accuracy": 0.77705112960761,
+      "abstain_rate": 0.1594202898550725
+    },
+    {
+      "threshold": 0.09,
+      "coverage": 0.8245877061469266,
+      "accuracy": 0.7818181818181819,
+      "abstain_rate": 0.17541229385307344
+    },
+    {
+      "threshold": 0.1,
+      "coverage": 0.8105947026486756,
+      "accuracy": 0.7848335388409371,
+      "abstain_rate": 0.1894052973513244
+    },
+    {
+      "threshold": 0.11,
+      "coverage": 0.7956021989005497,
+      "accuracy": 0.7876884422110553,
+      "abstain_rate": 0.20439780109945027
+    },
+    {
+      "threshold": 0.12,
+      "coverage": 0.776111944027986,
+      "accuracy": 0.7907276239536382,
+      "abstain_rate": 0.223888055972014
+    },
+    {
+      "threshold": 0.13,
+      "coverage": 0.7561219390304847,
+      "accuracy": 0.8003965631196299,
+      "abstain_rate": 0.24387806096951525
+    },
+    {
+      "threshold": 0.14,
+      "coverage": 0.7316341829085458,
+      "accuracy": 0.8060109289617486,
+      "abstain_rate": 0.26836581709145424
+    },
+    {
+      "threshold": 0.15,
+      "coverage": 0.7076461769115442,
+      "accuracy": 0.8086158192090396,
+      "abstain_rate": 0.2923538230884558
+    },
+    {
+      "threshold": 0.16,
+      "coverage": 0.679160419790105,
+      "accuracy": 0.8160412067696836,
+      "abstain_rate": 0.320839580209895
+    },
+    {
+      "threshold": 0.17,
+      "coverage": 0.6481759120439781,
+      "accuracy": 0.8242097147262915,
+      "abstain_rate": 0.35182408795602194
+    },
+    {
+      "threshold": 0.18,
+      "coverage": 0.624687656171914,
+      "accuracy": 0.8328,
+      "abstain_rate": 0.375312343828086
+    },
+    {
+      "threshold": 0.19,
+      "coverage": 0.5977011494252874,
+      "accuracy": 0.8369565217391305,
+      "abstain_rate": 0.4022988505747126
+    },
+    {
+      "threshold": 0.2,
+      "coverage": 0.5702148925537232,
+      "accuracy": 0.845749342681858,
+      "abstain_rate": 0.42978510744627685
+    },
+    {
+      "threshold": 0.21,
+      "coverage": 0.5412293853073463,
+      "accuracy": 0.8485687903970452,
+      "abstain_rate": 0.4587706146926537
+    },
+    {
+      "threshold": 0.22,
+      "coverage": 0.5172413793103449,
+      "accuracy": 0.8531400966183574,
+      "abstain_rate": 0.48275862068965514
+    },
+    {
+      "threshold": 0.23,
+      "coverage": 0.496751624187906,
+      "accuracy": 0.8591549295774648,
+      "abstain_rate": 0.503248375812094
+    },
+    {
+      "threshold": 0.24,
+      "coverage": 0.4702648675662169,
+      "accuracy": 0.8639744952178533,
+      "abstain_rate": 0.5297351324337831
+    },
+    {
+      "threshold": 0.25,
+      "coverage": 0.44627686156921537,
+      "accuracy": 0.8656215005599104,
+      "abstain_rate": 0.5537231384307846
+    },
+    {
+      "threshold": 0.26,
+      "coverage": 0.4197901049475262,
+      "accuracy": 0.8726190476190476,
+      "abstain_rate": 0.5802098950524738
+    },
+    {
+      "threshold": 0.27,
+      "coverage": 0.3918040979510245,
+      "accuracy": 0.889030612244898,
+      "abstain_rate": 0.6081959020489756
+    },
+    {
+      "threshold": 0.28,
+      "coverage": 0.35732133933033483,
+      "accuracy": 0.8979020979020979,
+      "abstain_rate": 0.6426786606696652
+    },
+    {
+      "threshold": 0.29,
+      "coverage": 0.3193403298350825,
+      "accuracy": 0.9045383411580594,
+      "abstain_rate": 0.6806596701649175
+    },
+    {
+      "threshold": 0.3,
+      "coverage": 0.2733633183408296,
+      "accuracy": 0.9195612431444241,
+      "abstain_rate": 0.7266366816591704
+    },
+    {
+      "threshold": 0.31,
+      "coverage": 0.24587706146926536,
+      "accuracy": 0.9227642276422764,
+      "abstain_rate": 0.7541229385307346
+    },
+    {
+      "threshold": 0.32,
+      "coverage": 0.21639180409795103,
+      "accuracy": 0.9214780600461894,
+      "abstain_rate": 0.783608195902049
+    },
+    {
+      "threshold": 0.33,
+      "coverage": 0.1839080459770115,
+      "accuracy": 0.9347826086956522,
+      "abstain_rate": 0.8160919540229885
+    },
+    {
+      "threshold": 0.34,
+      "coverage": 0.12443778110944528,
+      "accuracy": 0.9317269076305221,
+      "abstain_rate": 0.8755622188905547
+    },
+    {
+      "threshold": 0.35000000000000003,
+      "coverage": 0.050474762618690654,
+      "accuracy": 0.9702970297029703,
+      "abstain_rate": 0.9495252373813093
+    },
+    {
+      "threshold": 0.36,
+      "coverage": 0.0009995002498750624,
+      "accuracy": 1.0,
+      "abstain_rate": 0.999000499750125
+    },
+    {
+      "threshold": 0.37,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    },
+    {
+      "threshold": 0.38,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    },
+    {
+      "threshold": 0.39,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    },
+    {
+      "threshold": 0.41000000000000003,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    },
+    {
+      "threshold": 0.42,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    },
+    {
+      "threshold": 0.43,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    },
+    {
+      "threshold": 0.44,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0,
+      "accuracy": NaN,
+      "abstain_rate": 1.0
+    }
+  ],
+  "worst_slices": [
+    {
+      "feature": "delinquency_score",
+      "bin_label": "[-0.80, 0.03)",
+      "n_samples": 430,
+      "accuracy": 0.6372,
+      "error_rate": 0.3628,
+      "mean_prob": 0.4025,
+      "actual_rate": 0.407,
+      "auc": 0.6547
+    },
+    {
+      "feature": "PAY_0",
+      "bin_label": "[-0.97, -0.02)",
+      "n_samples": 521,
+      "accuracy": 0.643,
+      "error_rate": 0.357,
+      "mean_prob": 0.422,
+      "actual_rate": 0.4203,
+      "auc": 0.6636
+    },
+    {
+      "feature": "delinquency_score",
+      "bin_label": "[0.03, 0.64)",
+      "n_samples": 597,
+      "accuracy": 0.6951,
+      "error_rate": 0.3049,
+      "mean_prob": 0.6366,
+      "actual_rate": 0.6784,
+      "auc": 0.6887
+    },
+    {
+      "feature": "BILL_AMT2",
+      "bin_label": "[-0.89, -0.01)",
+      "n_samples": 500,
+      "accuracy": 0.7,
+      "error_rate": 0.3,
+      "mean_prob": 0.3979,
+      "actual_rate": 0.43,
+      "auc": 0.7862
+    },
+    {
+      "feature": "log_BILL_AMT2",
+      "bin_label": "[-0.43, 0.30)",
+      "n_samples": 500,
+      "accuracy": 0.7,
+      "error_rate": 0.3,
+      "mean_prob": 0.3979,
+      "actual_rate": 0.43,
+      "auc": 0.7862
+    }
+  ],
+  "feature_names": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "utilization_ratio",
+    "payment_ratio_1",
+    "payment_ratio_2",
+    "delinquency_score",
+    "log_LIMIT_BAL",
+    "log_BILL_AMT1",
+    "log_BILL_AMT2",
+    "log_PAY_AMT1",
+    "log_PAY_AMT2"
+  ],
+  "importances": [
+    0.0358099490404129,
+    0.02805536426603794,
+    0.027113933116197586,
+    0.031290631741285324,
+    0.03342559561133385,
+    0.17863236367702484,
+    0.05785444751381874,
+    0.0329083651304245,
+    0.0356525294482708,
+    0.03208556026220322,
+    0.03606021776795387,
+    0.03014647774398327,
+    0.032531604170799255,
+    0.029075639322400093,
+    0.03209517523646355,
+    0.3472622036933899,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "ensemble_mean_uncertainty": 0.02793094702064991,
+  "reject_coverage": 0.7076461769115442
+}
