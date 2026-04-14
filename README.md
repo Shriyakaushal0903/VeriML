@@ -23,7 +23,7 @@ Production-ready ML system that improves prediction reliability using:
 
 ---
 
-## Project Structure
+## Project Structure'''
 VeriML/
 ├── data/
 │   └── pipeline.py          # Data loading, feature engineering, preprocessing
@@ -47,7 +47,7 @@ VeriML/
 │   └── summary.json        
 ├── train.py                 # Full pipeline runner
 └── README.md
-
+'''
 
 ---
 
